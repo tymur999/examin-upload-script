@@ -1,0 +1,21 @@
+{
+  "name": "examin-upload-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc index.ts && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/firebase": "^3.2.1",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "firebase": "^9.8.1"
+  }
+}
